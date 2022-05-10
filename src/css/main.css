@@ -1,0 +1,17 @@
+/* Imports */
+/* ================================================================= */
+@import url(./reset.css);
+
+/* Color Palette */
+/* ================================================================= */
+:root{
+    --main-color:#141414;
+    --second-color:#FFFFFF;
+    --brick-color1:#F362B1;
+    --brick-color2:#B462F3;
+    --brick-color3:#627AF3;
+    --brick-color4:#63B1F9;
+    --brick-color5:#62F39C;
+    --brick-color6:#DFF362;
+    --brick-color7:#F96363;
+}
