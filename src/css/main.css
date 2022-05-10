@@ -1,10 +1,12 @@
 /* Imports */
 /* ================================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url(./reset.css);
 
 /* Color Palette */
 /* ================================================================= */
 :root{
+    --main-font:'Press Start 2P', cursive;
     --main-color:#141414;
     --second-color:#FFFFFF;
     --brick-color1:#F362B1;
@@ -15,3 +17,59 @@
     --brick-color6:#DFF362;
     --brick-color7:#F96363;
 }
+
+/* Body */
+/* ================================================================= */
+body{
+    background-color:var(--second-color);
+    font-family:var(--main-font);
+}
+
+/* Header */
+/* ================================================================= */
+header{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3vw;
+    margin:10% 10% 0% 10%;
+    width: 80vw;
+    height:17vh;
+    background-color:var(--main-color);
+    color:var(--second-color);
+}
+
+/* Working Area */
+/* ================================================================= */
+.working-area{
+display:flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+margin:5% 10% 5% 10%;
+width: 80vw;
+height:80vh;
+background-color:var(--main-color);
+color:var(--second-color);
+}
+
+/* Footer */
+/* ================================================================= */
+footer{
+    display:flex;
+    justify-content: space-around;
+    margin:0% 10% 10% 10%;
+    font-size: 2.5vw;
+    padding-top:60px;
+    width: 80vw;
+    height:17vh;
+    background-color:var(--main-color);
+    color:var(--second-color);
+}
+
+.life-heart{
+    width:3vw;
+    height:3vw;
+}
+/* ================================================================= */
