@@ -56,7 +56,6 @@ color:var(--second-color);
 }
 
 .game-area{
-    display:flex;
     justify-content: center;
     text-align: center;
     z-index: 1;
@@ -69,14 +68,10 @@ color:var(--second-color);
 }
 .first-row{
     display:flex;
-    margin:0.4vw;
-    z-index: 2;
-    width:5vw;
-    height:5vw;
-    background-color:var(--brick-color1);
+    margin-top:0.1rem;
 }
 
-.second-row{
+.bricks{
     display:flex;
     margin:0.4vw;
     z-index: 2;
