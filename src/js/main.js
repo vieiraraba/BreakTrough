@@ -20,7 +20,7 @@ gridContainer.map(function(row){
     row.map(function () {
         let bricks = document.createElement("div");
         bricks.setAttribute("id","bricks");
-        bricks.classList.add("bricks");
+        bricks.classList.add("bricks" + index);
 
 
         rowContainer.appendChild(bricks);
